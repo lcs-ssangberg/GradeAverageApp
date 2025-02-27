@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		496AC5BB2D70B19F00462F40 /* GradeAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AC5B82D70B19F00462F40 /* GradeAverageView.swift */; };
+		496AC5BC2D70B19F00462F40 /* GradeAverageAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AC5B92D70B19F00462F40 /* GradeAverageAppApp.swift */; };
+		496AC5BD2D70B19F00462F40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496AC5B52D70B19F00462F40 /* Preview Assets.xcassets */; };
+		496AC5BE2D70B19F00462F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496AC5B72D70B19F00462F40 /* Assets.xcassets */; };
+		496AC5C62D70B24200462F40 /* GradeAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AC5C52D70B24200462F40 /* GradeAverage.swift */; };
+		496AC5C82D70B25000462F40 /* GradeAverageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AC5C72D70B25000462F40 /* GradeAverageViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		496AC5A42D70B17A00462F40 /* GradeAverageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradeAverageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496AC5B52D70B19F00462F40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		496AC5B72D70B19F00462F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496AC5B82D70B19F00462F40 /* GradeAverageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeAverageView.swift; sourceTree = "<group>"; };
+		496AC5B92D70B19F00462F40 /* GradeAverageAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeAverageAppApp.swift; sourceTree = "<group>"; };
+		496AC5C52D70B24200462F40 /* GradeAverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeAverage.swift; sourceTree = "<group>"; };
+		496AC5C72D70B25000462F40 /* GradeAverageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeAverageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		496AC5A62D70B17A00462F40 /* GradeAverageApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GradeAverageApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		496AC5A12D70B17A00462F40 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		496AC59B2D70B17A00462F40 = {
 			isa = PBXGroup;
 			children = (
-				496AC5A62D70B17A00462F40 /* GradeAverageApp */,
+				496AC5BA2D70B19F00462F40 /* GradeAverageApp */,
 				496AC5A52D70B17A00462F40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,51 @@
 				496AC5A42D70B17A00462F40 /* GradeAverageApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		496AC5B62D70B19F00462F40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				496AC5B52D70B19F00462F40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		496AC5BA2D70B19F00462F40 /* GradeAverageApp */ = {
+			isa = PBXGroup;
+			children = (
+				496AC5B92D70B19F00462F40 /* GradeAverageAppApp.swift */,
+				496AC5C42D70B1BC00462F40 /* Model */,
+				496AC5C32D70B1BA00462F40 /* ViewModel */,
+				496AC5C22D70B1B800462F40 /* View */,
+				496AC5B62D70B19F00462F40 /* Preview Content */,
+				496AC5B72D70B19F00462F40 /* Assets.xcassets */,
+			);
+			path = GradeAverageApp;
+			sourceTree = "<group>";
+		};
+		496AC5C22D70B1B800462F40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				496AC5B82D70B19F00462F40 /* GradeAverageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		496AC5C32D70B1BA00462F40 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				496AC5C72D70B25000462F40 /* GradeAverageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		496AC5C42D70B1BC00462F40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				496AC5C52D70B24200462F40 /* GradeAverage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +111,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				496AC5A62D70B17A00462F40 /* GradeAverageApp */,
 			);
 			name = GradeAverageApp;
 			packageProductDependencies = (
@@ -109,6 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496AC5BD2D70B19F00462F40 /* Preview Assets.xcassets in Resources */,
+				496AC5BE2D70B19F00462F40 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496AC5C82D70B25000462F40 /* GradeAverageViewModel.swift in Sources */,
+				496AC5BB2D70B19F00462F40 /* GradeAverageView.swift in Sources */,
+				496AC5BC2D70B19F00462F40 /* GradeAverageAppApp.swift in Sources */,
+				496AC5C62D70B24200462F40 /* GradeAverage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
